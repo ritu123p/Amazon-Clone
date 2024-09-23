@@ -1,0 +1,924 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+header{
+    background-color: bisque;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 112px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/** box2 **/
+.nav-address{
+    height: 50;
+    width: 90;
+}
+
+.first{
+color: #cccccc;
+font-size: 0.75rem;
+margin-left: 15px;
+margin-top: 0;
+padding-right: 0;
+position: relative;
+top: 7px;
+}
+
+.second{
+    font-size: 0.90rem;
+    margin-left: 3px;
+    padding-bottom: 1px;
+    padding-right: 0;
+    font-weight: 700;
+    position: relative;
+    bottom: -2px;
+}
+
+.address-icon{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 13px;
+    height: 15px;
+    bottom: 9px;
+    
+}
+/** box 3 **/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f3c221df;
+    border-radius: 5px;
+    width: 620px;
+    height: 40px;
+
+}
+
+
+.search{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/** box4 **/
+.eng-logo{
+    height: 15px;
+    width: 20px;
+    padding-right: 0;
+    justify-content: center;
+}
+.eng{
+    background-image: url("english1.jpeg");
+    height: 13px;
+    width: 20px;
+    background-size: cover;
+}
+.search2{
+    background-color: transparent;
+    color: #f3f3f3;
+    position: relative;
+    border: none;
+    left: 20px;
+    bottom: 18px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.eng-logo-border{
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+}
+
+.eng-logo-border:hover{
+    border: 1.5px solid white;
+    background-size: cover;
+}
+/** box5 **/
+.sign-in{
+height: 50px;
+width: 113px;
+align-items: center;
+padding-right: 13px;
+padding-left: 9px;
+}
+
+span{
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 10px;
+}
+
+.search3{
+    font-size: 0.80rem;
+    background-color:#0f1111 ;
+    border: none;
+    color: #f3f3f3;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 27px;
+    right: 0.5px;
+    font-weight: 700;
+
+}
+/** box 6 **/
+.return{
+    height: 50px;
+
+}
+
+.return1{
+font-size: 0.7rem;
+position: relative;
+top: -8px;
+/**padding-top: 5px;**/
+}
+
+.order{
+    font-size: 0.8rem;
+    position: relative;
+    font-weight: 700;
+    bottom: 23px;
+    /**padding-bottom: 5px; **/
+}
+/** box7 **/
+.cart i {
+    font-size: 30px;
+}
+
+.cart{
+    font-size: 0.90rem;
+    font-weight: 700;;
+}
+
+/** panel **/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #cccccc;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-options{
+    width: 93%;
+    font-size: 0.90rem;
+    font-weight: 500;
+}
+
+.panel-all{
+    font-size: 0.90rem;
+    margin-left: 10px;
+}
+
+.panel-all i {
+    font-size: 20px;
+}
+
+.sec-nav:hover{
+    cursor: pointer;
+}
+/** hero section **/
+.hero-section{
+    background-image: url("61lwJy4B8PL._SX3000_.jpg");
+    background-size:cover;
+    height: 315px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hero-msg{
+    background-color: #f3f3f3;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.90rem;
+    position: relative;
+    bottom: -255px;
+    width: 97%;
+    font-weight: 500;
+}
+ 
+.hero-msg a {
+    color: #007185;
+}
+
+.hero-msg a:hover{
+    color: hsla(0, 98%, 49%, 0.725);
+}
+/** shop-section**/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/** box1 **/
+.box1{
+    height: 420px;
+    width: 23.5%;
+    background-color: white;
+
+}
+
+h2{
+    position: relative;
+    left: 15px;
+    font-size: 21px;
+}
+
+.head-key{
+    display: flex;
+}
+
+.headset{
+    background-image: url(Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg);
+    height: 115px;
+    width: 185px;
+}
+
+.keyboard{
+    background-image: url(Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg);
+    height: 115px;
+    width: 185px;
+}
+
+.item-name{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+p.one{
+    position: relative;
+    right: 40px;
+}
+
+.mouse-chair{
+    display: flex;
+}
+
+.mouse1{
+    background-image: url(Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg);
+    height: 115px;
+    width: 185px;
+}
+
+.chair1{
+    background-image: url(Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg);
+    height: 115px;
+    width: 185px;
+}
+
+p.four{
+    font-size: 0.80rem;
+    color: #007185;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    font-weight:500 ;
+    cursor: pointer;
+}
+
+p.four:hover{
+    color: hsla(0, 98%, 49%, 0.725);
+    text-decoration: underline;
+}
+/** box2**/
+.box2{
+    height: 420px;
+    width: 23.5%;
+    background-color: white;
+
+}
+
+.footwear{
+    height: 230px;
+    width: 274px;
+    display: flex;
+    align-items: center;
+}
+
+.top-footwear{
+    background-image: url(419wtJKRSYL._AC_SY230_.jpg);
+    height: 170px;
+    width: 274px;
+    background-size: cover;
+    position: relative;
+    left: 30px;
+    top: -5px;
+}
+
+.offer{
+    display: flex;
+    justify-content: left;
+    font-size: 0.75rem;
+    position: relative;
+    left: 20px;
+    top: -20px;
+}
+
+.offer1{
+    background-color: #CC0C39;
+    height: 24px;
+    width: 89px;
+    color: #cccccc;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+
+}
+
+.deals{
+    color: #CC0C39;
+    position: relative;
+    left: 7px;
+    top: 5px;
+    font-weight: 600;
+}
+
+.off2{
+    font-size: 0.8rem;
+    position: relative;
+    left: 20px;
+    top: -25px;
+}
+
+p.four1{
+    font-size: 0.80rem;
+    color: #007185;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-weight:500 ;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p.four1:hover{
+    color:  hsla(0, 98%, 49%, 0.725);
+    text-decoration: underline;
+}
+/** box3 **/
+.box3{
+    height: 420px;
+    width: 23.5%;
+    background-color: white;
+
+}
+
+.dress-knits{
+    display: flex;
+}
+
+.dress{
+    background-image: url(LSS23_SPRING_DT_CAT_CARD_2_x1._SY116_CB595261253_.jpg);
+    height: 115px;
+    width: 185px;
+}
+
+.knits{
+    background-image: url(LSS23_SPRING_DT_CAT_CARD_3_x1._SY116_CB595261253_.jpg);
+    height: 115px;
+    width: 185px;
+}
+
+.jac-jewel{
+    display: flex;
+}
+
+.jacket{
+    background-image: url(LSS23_SPRING_DT_CAT_CARD_1_x1._SY116_CB595261253_.jpg);
+    height: 115px;
+    width: 185px;
+}
+
+.jewelry{
+    background-image: url(LSS23_SPRING_DT_CAT_CARD_4_x1._SY116_CB595261253_.jpg);
+    height: 115px;
+    width: 185px;
+}
+
+/** box4 **/
+
+.sign-in-secure{
+    height: 150px;
+    width: 330px;
+    background-color: white;
+    position: relative;
+    top: -17px;
+}
+
+
+.sign-in-sec{
+    position: relative;
+    left: 10px;
+    font-size: 21px;
+    top: 20px;
+}
+
+.botton{
+    height: 30px;
+    width: 300px;
+    background-color: #ffd900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: none;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.botton:hover{
+    background-color: hwb(50 0% 0% / 0.689);
+}
+
+.signin-btn{
+    background-color: transparent;
+    font-size: 0.75rem;
+    position: relative;
+    cursor: pointer;
+    border-color: hwb(50 0% 0% / 0.689);
+    border: 0;
+
+}
+
+.signin-btn:hover{
+    background-color: #ffd900;
+}
+
+.ship-over{
+    background-image: url(Fuji_D2_45M_en_US_1x._CB418309979_.jpg);
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+
+/** shop-section2 **/
+
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+/** Box21 **/
+.box21{
+    height: 420px;
+    width: 23.5%;
+    background-color: white;
+    position: relative;
+    left: 4px;
+}
+
+.health-care{
+    background-image: url(box2_image.jpg);
+    height: 310px;
+    width: 312px;
+    background-size: cover;
+    position: relative;
+    left: 20px;
+}
+
+p.five{
+    cursor: pointer;
+    color: #007185;
+    font-weight: 500;
+    font-size: 0.80rem;
+    margin-left: 20px;
+    position: relative;
+    top: 12px;
+}
+
+p.five:hover{
+    color:  hsla(0, 98%, 49%, 0.725);
+    text-decoration: underline;
+}
+/** box22 **/
+.box22{
+    height: 420px;
+    width: 23.5%;
+    background-color: white;
+    position: relative;
+    left: 9px;
+}
+
+.gaming-merchant{
+    display: flex;
+}
+
+.gaming{
+    background-image: url(gameing_jpeg.jpg);
+    height: 115px;
+    width: 185px;
+}
+
+.merchant{
+    background-image: url(cap_jpeg.jpg);
+    height: 115px;
+    width: 185px;
+}
+
+p.nam1{
+   position: relative; 
+   left: -60px;
+}
+
+p.nam2{
+    position: relative; 
+    left: -20px;
+}
+
+.action-mug{
+    display: flex;
+}
+
+.action{
+    background-image: url(action-jpeg.jpg);
+    height: 115px;
+    width: 185px;
+}
+
+.mug{
+    background-image: url(mug_jpeg.jpg);
+    height: 115px;
+    width: 185px;
+}
+/** box23 **/
+.box23{
+    height: 420px;
+    width: 23.5%;
+    background-color: white;
+    position: relative;
+    left: 13px;
+}
+
+.home-kitchen{
+    background-image: url(home_kitchen.jpg);
+    height: 310px;
+    width: 312px;
+    background-size: cover;
+    position: relative;
+    left: 20px;
+}
+/** box24 **/
+.box24{
+    height: 420px;
+    width: 23.5%;
+    background-color: white;
+    position: relative;
+    left: 17px;
+}
+
+.electronics{
+    background-image: url(electronics.jpg);
+    height: 310px;
+    width: 320px;
+    background-size: cover;
+    position: relative;
+    left: 10px;
+}
+
+/** shop-section3 **/
+
+.shop-section3{
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: white;
+    height: 280px;
+    width: 1473px;
+}
+
+.new{
+    position: relative;
+    left: 15px;
+    top: 25px;
+    font-size: 21px;
+}
+
+.international-customer{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10px;
+}
+
+.book{
+    background-image: url(book.jpg);
+    height: 200px;
+    width: 129px;
+}
+
+.charger{
+    background-image: url(charger.jpg);
+    height: 184px;
+    width: 290px;
+}
+
+.dog-mask{
+    background-image: url(dog_mask.jpg);
+    height: 200px;
+    width: 176px;
+}
+
+.doll{
+    background-image: url(doll.jpg);
+    height: 200px;
+    width: 199px;
+}
+
+.mobile{
+    background-image: url(mobile.jpg);
+    height: 200px;
+    width: 161px;
+}
+
+.watch{
+    background-image: url(watch.jpg);
+    height: 200px;
+    width: 122px;
+}
+
+.book-korea{
+    background-image: url(book_korean.jpg);
+    height: 200px;
+    width: 129px;
+}
+
+.blank{
+    background-color: white;
+}
+
+/** sign-section **/
+
+.sign-section{
+    height: 190px;
+    width: 1530px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.blank{
+    height: 35px;
+    width: 100%;
+}
+
+.line{
+    color: bisque;
+    border-top: 1px;
+}
+
+.signin-option{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.person{
+    font-size: 0.80rem;
+    font-weight: 500;
+}
+
+.sign-in-btn{
+    height: 30px;
+    width: 220px;
+    background-color: hsla(47, 87%, 50%, 0.819);
+    border-color: hwb(43 7% 7% / 0.819);
+    text-shadow: #ffe093;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 0.80rem;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+}
+
+.new-customer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.70rem;
+    position: relative;
+    top: -18px;
+}
+
+.customer2{
+    color: #007185;
+    cursor: pointer;
+}
+
+.customer2:hover{
+    color: #CC0C39;
+}
+
+.line2{
+    color: bisque;
+    position: relative;
+    top: -15px;
+    border-top: 1px;
+}
+
+/** footer **/
+
+.back-to-top{
+    height: 50px;
+    width: 100%;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.back-to-top:hover{
+    background-color: #405772;
+}
+
+.back{
+    color: white;
+    font-size: 0.75rem;
+}
+
+.footer-link{
+    height: 460px;
+    width: 100%;
+    background-color:   #222f3d;
+}
+
+.link-option{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+    top: 30px;
+}
+
+ul.no-bullets{
+    list-style-type: none;
+}
+
+li{
+    margin-top: 10px;
+    font-size: 0.90rem;
+}
+
+p.list{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.line3{
+    background-color: #37475a;
+    margin-top: 70px;
+    border-top: 0.0001px;
+}
+
+/** footer link 2 **/
+
+.footer-link2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazon-logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 90px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.english{
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.dollar{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 35px;
+    width: 150px;
+    margin-left: 8px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.united{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    margin-top: 20px;
+    margin-left: 8px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.eng2{
+    background-image: url(english1.jpeg);
+    height: 13px;
+    width: 20px;
+    background-size: cover;
+}
